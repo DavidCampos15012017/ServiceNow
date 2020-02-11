@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:a4d62a4c4f133300c09fb8de9310c7ac</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-10 22:29:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ecad6391bb37f002ad798aebd4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pruebas_y_desarrollo</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2ecad6391bb37f002ad798aebd4bcb71</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-10 22:29:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide_RITM_SCTASK">514c112c1bfbf7002ad798aebd4bcb09</ui_policy>
+        <variable>pruebas_y_desarrollo</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

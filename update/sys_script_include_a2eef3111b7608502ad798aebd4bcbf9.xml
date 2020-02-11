@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.LlenarServiceGroupConVirtualServer</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>true</client_callable>
+        <description>LLena el ServiceGroup correspondiente al Viritual Server. </description>
+        <name>LlenarServiceGroupConVirtualServer</name>
+        <script><![CDATA[var LlenarServiceGroupConVirtualServer = Class.create();
+LlenarServiceGroupConVirtualServer.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    llenarServiceGroup: function() {
+        var ipAddress = encodeURIComponent(this.getParameter('sysparm_name_ipAddress'));
+        var serverName = encodeURIComponent(this.getParameter('sysparm_name_serverName'));
+        var responseBody = "";
+        var serviceGroup = "";
+        try {
+            var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'ConsultaGranjaBCR');
+			r.setStringParameter("serverName", serverName);
+			r.setStringParameter("ipAddress", ipAddress);
+            var response = r.execute();
+            responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+        } catch (ex) {
+            var message = ex.message;
+        } 
+		return responseBody;
+    },
+   
+    type: 'LlenarServiceGroupConVirtualServer'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-05 19:48:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2eef3111b7608502ad798aebd4bcbf9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>LlenarServiceGroupConVirtualServer</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_a2eef3111b7608502ad798aebd4bcbf9</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-06 15:18:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

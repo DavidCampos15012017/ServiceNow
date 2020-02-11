@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="categoria de Solicitud de Telecomunicaciones ">a913ed08db3133002ca60d53ca9619ff</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div>Formulario para las solicitudes correspondientes  a los Virtual Servers: </div>
+<div> </div>
+<ul style="list-style-position: inside;"><li>Creación de Virtual Servers (granja)</li><li>Modificación Virtual Servers (granja)</li><li>Verificación Virtual Servers (granja)</li><li>Habilitar Virtual Servers (granja)</li><li>Deshabilitar Virtual Servers (granja)</li></ul>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>563f0c20db7ff700f9d35f7748961987</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Configuración de Virtual Servers Citrix </name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>2</order>
+        <ordered_item_link/>
+        <picture>c7c8249c1b37b7002ad798aebd4bcb93</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3105d62cdb7573002ca60d53ca961963&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>742ce428d7211100f2d224837e61036d</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description> Solicitud  de configuración de Virtual Servers Citrix</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-30 14:45:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3105d62cdb7573002ca60d53ca961963</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>Configuración de Virtual Servers Citrix </sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sc_cat_item_3105d62cdb7573002ca60d53ca961963</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Telecom - Solicitud Virtual Servers Citrix">f9938450db8233002ca60d53ca96191b</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=3105d62cdb7573002ca60d53ca961963"/>
+    <fx_price action="delete_multiple" query="id=3105d62cdb7573002ca60d53ca961963"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price</field>
+        <id>3105d62cdb7573002ca60d53ca961963</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-30 14:45:50</sys_created_on>
+        <sys_id>4e25522cdb7573002ca60d53ca961928</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>3105d62cdb7573002ca60d53ca961963</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-30 14:45:50</sys_created_on>
+        <sys_id>9225522cdb7573002ca60d53ca96192c</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#acacac</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <hash/>
+        <image_height>23</image_height>
+        <image_width>23</image_width>
+        <size_bytes>15782</size_bytes>
+        <size_compressed>6682</size_compressed>
+        <state>available</state>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 15:06:14</sys_created_on>
+        <sys_id>563f0c20db7ff700f9d35f7748961987</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-09-06 15:06:16</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>3105d62cdb7573002ca60d53ca961963</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="563f0c20db7ff700f9d35f7748961987">563f0c20db7ff700f9d35f7748961987</sys_attachment>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 15:06:14</sys_created_on>
+        <sys_id>963f0c20db7ff700f9d35f7748961987</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>8896</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="563f0c20db7ff700f9d35f7748961987">563f0c20db7ff700f9d35f7748961987</sys_attachment>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 15:06:14</sys_created_on>
+        <sys_id>1a3f0c20db7ff700f9d35f7748961987</sys_id>
+    </sys_attachment_doc>
+</record_update>

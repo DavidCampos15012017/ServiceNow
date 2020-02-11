@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarVirtualServerFiltradoModificar</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarVirtualServerFiltradoModificar</name>
+        <script><![CDATA[var MostrarVirtualServerFiltradoModificar = Class.create();
+MostrarVirtualServerFiltradoModificar.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarVS: function(){
+		
+		var text_body2 = this.getParameter('sysparm_name_IP');
+		var searchQueryIP = encodeURIComponent(text_body2);
+		
+		var text_body = this.getParameter('sysparm_JSON_data');
+		var searchQuery = encodeURIComponent(text_body);
+		//var searchQueryIP = encodeURIComponent(getIpAddress);
+		//var serviceGgroupModif = current.variables.servicegroup_a_modificar;
+		var arrayValue = [];
+		var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarVirtualServerBCR32Name');
+		r.setStringParameter('ipAddress', searchQueryIP);
+		r.setStringParameterNoEscape('servername', searchQuery);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var valueGet = JSON.parse(responseBody);
+		var virtualServerName = valueGet.lbvserver[0].name;
+		var tipoProtocolo = valueGet.lbvserver[0].servicetype;
+		var IP = valueGet.lbvserver[0].ipv46;
+		var Puerto = valueGet.lbvserver[0].port;
+		var tipoPersistencia = valueGet.lbvserver[0].persistencetype;
+		arrayValue.push(virtualServerName,tipoProtocolo,IP,Puerto,tipoPersistencia);
+		return arrayValue.toString();
+	},
+	type: 'MostrarVirtualServerFiltradoModificar'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 18:08:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c82e18b44f7e7300c09fb8de9310c771</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>MostrarVirtualServerFiltradoModificar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_c82e18b44f7e7300c09fb8de9310c771</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-16 02:58:43</sys_updated_on>
+    </sys_script_include>
+</record_update>
