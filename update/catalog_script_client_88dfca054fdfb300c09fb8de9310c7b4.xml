@@ -26,6 +26,9 @@
 		console.log("deshabilitarcuandoQuedeseasHacerValue");
 		g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
 		g_form.setMandatory('n_mero_de_servers_a_enlazar', false);
+		g_form.setValue('n_mero_de_servidores_a_deshabilitar', 1);
+		g_form.setValue('n_mero_de_servidores_a_eliminar', 1);
+		g_form.setValue('n_mero_de_servidores_a_Habilitar', 1);
 		
 		g_form.setMandatory('nombre_servidor_1', false);
 		g_form.setMandatory('nombre_servidor_2', false);
@@ -65,7 +68,7 @@
 		g_form.setDisplay('ip_servidor_7', false);
 		g_form.setDisplay('ip_servidor_8', false);
 	}else{
-		
+		g_form.setValue('n_mero_de_servers_a_enlazar', 1);
 		g_form.setMandatory('servidor_a_eliminar_1',false);
 		g_form.setMandatory('servidor_a_eliminar_2',false);
 		g_form.setMandatory('servidor_a_eliminar_3',false);
@@ -125,7 +128,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>88dfca054fdfb300c09fb8de9310c7b4</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>deshabilitarcuandoQuedeseasHacerValue</sys_name>
         <sys_overrides/>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
@@ -134,7 +137,7 @@
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>catalog_script_client_88dfca054fdfb300c09fb8de9310c7b4</sys_update_name>
         <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-11 16:56:14</sys_updated_on>
+        <sys_updated_on>2020-02-12 14:20:58</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

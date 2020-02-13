@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Virtual Servers BCR">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:63a558bc4f3e7300c09fb8de9310c71f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 17:36:57</sys_created_on>
+        <sys_id>8acb94344f7e7300c09fb8de9310c78e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>virtual_server_a_modificar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8acb94344f7e7300c09fb8de9310c78e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 17:36:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="OcultarMostrarVirtualServerModificarSelectBox">ff8b90344f7e7300c09fb8de9310c78b</ui_policy>
+        <variable>virtual_server_a_modificar</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>dd44d9784fc82280e17199701310c786</instance_id>
+        <instance_name>bcrdev</instance_name>
+        <name>catalog_ui_policy_action_8acb94344f7e7300c09fb8de9310c78e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Virtual Servers BCR">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:63a558bc4f3e7300c09fb8de9310c71f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 17:36:57</sys_created_on>
+        <sys_id>8acb94344f7e7300c09fb8de9310c78e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>virtual_server_a_modificar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8acb94344f7e7300c09fb8de9310c78e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 17:36:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="OcultarMostrarVirtualServerModificarSelectBox">ff8b90344f7e7300c09fb8de9310c78b</ui_policy>
+        <variable>virtual_server_a_modificar</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-2070577144</payload_hash>
+        <record_name>virtual_server_a_modificar</record_name>
+        <reverted_from/>
+        <source>453b85ab1b67f3002ad798aebd4bcbb2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-03 16:54:25</sys_created_on>
+        <sys_id>313bc5ab1b67f3002ad798aebd4bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cf80c84d30000001</sys_recorded_at>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-03 16:54:25</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>fd3bc5ab6467f3005707fcbe71f8cce9</update_guid>
+        <update_guid_history>fd3bc5ab6467f3005707fcbe71f8cce9:-2070577144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-02-12 11:48:29">5d29ef27db3e8890f9d35f774896193c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-12 17:48:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>7dfd77e6ddfc4c208d8ad725310fc390</sys_id>
+        <sys_metadata>8acb94344f7e7300c09fb8de9310c78e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>virtual_server_a_modificar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_8acb94344f7e7300c09fb8de9310c78e</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_8acb94344f7e7300c09fb8de9310c78e">313bc5ab1b67f3002ad798aebd4bcbea</sys_update_version>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-12 17:48:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -29,13 +29,13 @@
         <model/>
         <name>Configuración de Virtual Servers Citrix </name>
         <no_attachment_v2>false</no_attachment_v2>
-        <no_cart>false</no_cart>
+        <no_cart>true</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
-        <no_proceed_checkout>false</no_proceed_checkout>
-        <no_quantity>false</no_quantity>
+        <no_proceed_checkout>true</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
@@ -60,7 +60,7 @@
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3105d62cdb7573002ca60d53ca961963</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>Configuración de Virtual Servers Citrix </sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
@@ -68,10 +68,10 @@
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>sc_cat_item_3105d62cdb7573002ca60d53ca961963</sys_update_name>
         <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
         <template/>
         <type>item</type>
-        <use_sc_layout>true</use_sc_layout>
+        <use_sc_layout>false</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -91,9 +91,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
         <sys_id>4e25522cdb7573002ca60d53ca961928</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -108,9 +108,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
         <sys_id>9225522cdb7573002ca60d53ca96192c</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-05 19:34:42</sys_updated_on>
+        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

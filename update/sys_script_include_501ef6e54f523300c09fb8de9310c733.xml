@@ -39,14 +39,14 @@ MostrarVirtualServerInclude32.prototype = Object.extendsObject(global.AbstractAj
         <sys_created_on>2019-06-27 16:51:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>501ef6e54f523300c09fb8de9310c733</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>MostrarVirtualServerInclude32</sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>sys_script_include_501ef6e54f523300c09fb8de9310c733</sys_update_name>
-        <sys_updated_by>114190586</sys_updated_by>
-        <sys_updated_on>2019-09-16 18:30:33</sys_updated_on>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-12 22:13:15</sys_updated_on>
     </sys_script_include>
 </record_update>

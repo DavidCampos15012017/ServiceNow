@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>-- NINGUNA --</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -60,7 +60,7 @@
         <sys_created_on>2019-07-19 17:10:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>63a558bc4f3e7300c09fb8de9310c71f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name> Seleccione el Virtual Server que desea modificar</sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>item_option_new_63a558bc4f3e7300c09fb8de9310c71f</sys_update_name>
         <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-11 18:25:27</sys_updated_on>
+        <sys_updated_on>2020-02-13 15:37:08</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
