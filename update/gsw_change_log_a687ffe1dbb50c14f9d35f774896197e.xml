@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2019-12-18 20:40:44</change_date>
-        <changed_by display_value="Jose Pablo Zuniga Solis">5098d8601bd7338c3c08311d1e4bcb0c</changed_by>
+        <changed_by display_value="">5098d8601bd7338c3c08311d1e4bcb0c</changed_by>
         <content display_value="Agent Workspace Guided Setup">a869052fdb081300c47f5f135e961910</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>
         <sys_created_by>114250852</sys_created_by>
         <sys_created_on>2019-12-18 20:40:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>a687ffe1dbb50c14f9d35f774896197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2019-12-18 20:40:44</sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>gsw_change_log_a687ffe1dbb50c14f9d35f774896197e</sys_update_name>
         <sys_updated_by>114250852</sys_updated_by>

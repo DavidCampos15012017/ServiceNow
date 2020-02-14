@@ -11,24 +11,22 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>BCRmessage [ BindPersistenceGroup32BCR ]</qualified_name>
-        <rest_endpoint>https://${ipAddress}/nitro/v1/config/lbgroup_lbvserver_binding</rest_endpoint>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbgroup_lbvserver_binding</rest_endpoint>
         <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-17 17:44:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>7b2a8ac04f723300c09fb8de9310c7c3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>BindPersistenceGroup32BCR</sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>sys_rest_message_fn_7b2a8ac04f723300c09fb8de9310c7c3</sys_update_name>
-        <sys_updated_by>114190586</sys_updated_by>
-        <sys_updated_on>2020-01-21 20:51:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 18:05:01</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
-        <use_mid_server display_value="BCR_MidServer_TFS_Dev">d8e2d7badb0f620049767bec0f961967</use_mid_server>
+        <use_mid_server display_value="DATASYS">6bda43b22f2ac010ac9bfe1df699b658</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message_fn>
 </record_update>

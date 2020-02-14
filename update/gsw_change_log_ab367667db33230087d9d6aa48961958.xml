@@ -3,18 +3,16 @@
         <change_date>2019-03-01 14:46:35</change_date>
         <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
         <content display_value="Download &amp; Install MID">c751d3dac39312007bf1bea192d3ae0a</content>
-        <related_change_log_entry display_value="2019-03-01 08:46:35">23367667db33230087d9d6aa48961958</related_change_log_entry>
+        <related_change_log_entry display_value="2019-03-01 06:46:35">23367667db33230087d9d6aa48961958</related_change_log_entry>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-01 14:46:35</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ab367667db33230087d9d6aa48961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2019-03-01 14:46:35</sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>gsw_change_log_ab367667db33230087d9d6aa48961958</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

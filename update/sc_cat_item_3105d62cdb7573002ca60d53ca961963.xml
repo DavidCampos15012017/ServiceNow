@@ -12,7 +12,6 @@
         <description><![CDATA[<div>Formulario para las solicitudes correspondientes  a los Virtual Servers: </div>
 <div> </div>
 <ul style="list-style-position: inside;"><li>Creación de Virtual Servers (granja)</li><li>Modificación Virtual Servers (granja)</li><li>Verificación Virtual Servers (granja)</li><li>Habilitar Virtual Servers (granja)</li><li>Deshabilitar Virtual Servers (granja)</li></ul>]]></description>
-        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -58,17 +57,15 @@
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>3105d62cdb7573002ca60d53ca961963</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name>Configuración de Virtual Servers Citrix </sys_name>
         <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
         <sys_update_name>sc_cat_item_3105d62cdb7573002ca60d53ca961963</sys_update_name>
-        <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 17:53:28</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
@@ -87,13 +84,13 @@
         <id>3105d62cdb7573002ca60d53ca961963</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="">CRC</reference_currency>
+        <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
         <sys_id>4e25522cdb7573002ca60d53ca961928</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 17:53:28</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -104,13 +101,13 @@
         <id>3105d62cdb7573002ca60d53ca961963</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="">CRC</reference_currency>
+        <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 14:45:50</sys_created_on>
         <sys_id>9225522cdb7573002ca60d53ca96192c</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_updated_by>701980296</sys_updated_by>
-        <sys_updated_on>2020-02-13 14:57:03</sys_updated_on>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 17:53:28</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -121,7 +118,6 @@
         <content_type>image/jpeg</content_type>
         <encryption_context/>
         <file_name>icon</file_name>
-        <hash/>
         <image_height>23</image_height>
         <image_width>23</image_width>
         <size_bytes>15782</size_bytes>
